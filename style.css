@@ -1,0 +1,148 @@
+/* style.css */
+.baloo-bhai-2 {
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 50;
+    font-style: bold;
+  }
+body {
+    /* background: ;  */
+    margin: 0;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    background: #0e0e0e;
+    color: #fff;
+  }
+  
+  .navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.7);
+    animation: navbarFadeIn 2s ease-in-out;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 50px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-right: 60px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: grey;
+  }
+  
+  .header {
+    position: relative ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background: linear-gradient(120deg, #1b1b1b, #3b3b3b);
+    overflow: hidden;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: radial-gradient(circle, #00d4ff, transparent); */
+    animation: pulse 3s infinite;
+    background: url('ChatGPT Image Apr 9, 2025, 11_39_57 AM.png');
+    /* background-clip: url('201735-916310640_small.mp4'); */
+    z-index: 1; 
+  }
+  
+  .title {
+    font-size: 4rem;
+    margin: 0;
+    animation: fadeIn 2s ease-out;
+    /* display: inline-block; */
+    align-items: center;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #ccc;
+    animation: slideIn 2s ease-out;
+    display: inline-block;
+    align-items: center;
+  }
+  
+  .content {
+
+    padding: 30px;
+    max-width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .info-block {
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-out;
+    /* display: flex; */
+  }
+  
+  .info-image {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px;
+    border-radius: 10px;
+    animation: slideIn 2s ease-out;
+    display: flex;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: #1b1b1b;
+    color: #ccc;
+  }
+  
+  /* Animations */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(1.5);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .header2{
+    display: inline-block;
+  }
+  
+  
